@@ -57,7 +57,7 @@ def aggregate_prefixes(prefixes, max_length=128, debug=False):
         Sorted list of IPv4 or IPv6 aggregated prefixes serialized as strings
 
     """
-    aggregates = list()
+
     # Sort and filter prefixes. Smaller network goes firt, on tie larger prefixlen wins
     prefixes = sorted(
         [p for p in [ipaddress.ip_network(p) for p in prefixes] if p.prefixlen <= max_length],
