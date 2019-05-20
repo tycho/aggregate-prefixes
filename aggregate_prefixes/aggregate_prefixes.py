@@ -48,8 +48,8 @@ def aggregate_prefixes(prefixes, max_length=128, debug=False):
 
     Returns
     -------
-    list
-        Sorted list of IPv4 or IPv6 aggregated prefixes serialized as strings
+    generator
+        Sorted iterable of IPv4 or IPv6 aggregated prefixes serialized as strings
 
     """
 
