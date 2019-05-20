@@ -5,8 +5,6 @@
 Regression tests for package aggregate-prefixes
 """
 
-from __future__ import absolute_import
-
 import io
 import sys
 import unittest

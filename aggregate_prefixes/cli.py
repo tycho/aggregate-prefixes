@@ -28,8 +28,6 @@
 Provides CLI interface for package aggregate-prefixes
 """
 
-from __future__ import absolute_import
-from __future__ import print_function
 import argparse
 import sys
 
