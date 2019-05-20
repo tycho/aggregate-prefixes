@@ -41,5 +41,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 # Python compatibility
 Tested with:
- - Python 2.7.15
- - Python 3.6.5
+ - Python 3.7.3
+ - PyPy3 7.1.1 (Python 3.6.1 compatibility level)
