@@ -61,11 +61,6 @@ def main():
         default=128
     )
     parser.add_argument(
-        '--verbose', '-v',
-        help='Display verbose information about the optimisations',
-        action='store_true'
-    )
-    parser.add_argument(
         '--version', '-V',
         action='version',
         version='%(prog)s ' + VERSION
@@ -82,7 +77,7 @@ def main():
         if p
     ]
     try:
-        aggregates = aggregate_prefixes(prefixes, args.max_length, args.verbose)
+        aggregates = aggregate_prefixes(prefixes, args.max_length)
     except (ValueError, TypeError) as error:
         sys.exit('ERROR: %s' % error)
     print('\n'.join(aggregates))
