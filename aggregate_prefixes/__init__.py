@@ -18,7 +18,9 @@ Example:
 __version__ = "0.5"
 __author__ = "Marco Marzetti"
 __author_email__ = "marco@lamehost.it"
-__url__ = "https://github.com/lamehost/aggregate-prefixes/"
+__maintainer__ = "Steven Noonan"
+__maintainer_email__ = "steven@uplinklabs.net"
+__url__ = "https://github.com/tycho/aggregate-prefixes"
 __description__ = "Fast IPv4 and IPv6 prefix aggregator written in Python."
 __license__ = "MIT"
 __classifiers__ = [

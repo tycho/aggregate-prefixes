@@ -1,4 +1,6 @@
 # aggregate-prefixes
+[![Build Status](https://travis-ci.org/tycho/aggregate-prefixes.svg?branch=master)](https://travis-ci.org/tycho/aggregate-prefixes)
+
 Fast IPv4 and IPv6 prefix aggregator written in Pyrhon.  
 
 Gets a list of unsorted IPv4 or IPv6 prefixes from argument or SDTIN and returns a sorted list of aggregates to STDOUT
