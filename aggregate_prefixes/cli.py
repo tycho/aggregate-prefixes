@@ -33,7 +33,7 @@ from __future__ import print_function
 import argparse
 import sys
 
-from aggregate_prefixes.aggregate_prefixes import aggregate_prefixes
+from aggregate_prefixes import aggregate_prefixes
 from aggregate_prefixes import __version__ as VERSION
 
 def main():
